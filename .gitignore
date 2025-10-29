@@ -14,3 +14,4 @@ Thumbs.db
 /.idea/
 coverage/
 *.egg-info/
+DEPLOYMENT_GUIDE.md
