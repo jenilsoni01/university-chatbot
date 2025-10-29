@@ -19,7 +19,7 @@ const App = () => {
 
   const handleStartConversation = async () => {
     try {
-      const response = await fetch(`${process.env.Backend_URL}/start`, {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/start`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -75,7 +75,7 @@ const App = () => {
 
     try {
       // Call your backend API here
-      const response = await fetch(`${process.env.Backend_URL}/message`, {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/message`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ sessionId: userId, text: inputValue }),
