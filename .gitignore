@@ -14,4 +14,3 @@ Thumbs.db
 /.idea/
 coverage/
 *.egg-info/
-definitions/
