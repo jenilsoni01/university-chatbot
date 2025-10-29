@@ -1,0 +1,12 @@
+.env
+.env.local
+.env.development
+.env.production
+
+.venv
+*venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

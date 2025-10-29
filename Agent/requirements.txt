@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+PyPDF2
+pillow
+pytesseract
+scikit-learn
+numpy
+scipy
+langchain-google-genai
+requests
+transformers
+torch
